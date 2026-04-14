@@ -4,3 +4,5 @@ obj/
 *.suo
 *.pdb
 *.cache
+test.png
+test.txt

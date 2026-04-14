@@ -8,6 +8,7 @@
     <StartupObject>AutoClicker.Program</StartupObject>
     <RootNamespace>AutoClicker</RootNamespace>
     <AssemblyName>AutoClicker</AssemblyName>
+    <ApplicationIcon>YIFANG.ico</ApplicationIcon>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <OptionExplicit>On</OptionExplicit>
@@ -58,6 +59,10 @@
     <Compile Include="ConfigService.vb" />
     <Compile Include="NativeMethods.vb" />
     <Compile Include="MainForm.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="YIFANG.ico" />
+    <None Include="YIFANG.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>
